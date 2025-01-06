@@ -4,7 +4,7 @@ type Props = {
 
 const TrendButton = ({ title }: Props) => {
   return (
-    <div className="bg-white bg-opacity-20 text-white text-opacity-50 py-[6px] px-[16px] rounded-md text-[13px]">
+    <div className="flex items-center justify-center flex-wrap max-w-full break-all py-2 px-4 bg-white bg-opacity-20 text-white text-opacity-50 rounded-md text-[13px]">
       {title}
     </div>
   );
